@@ -1,0 +1,119 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Overpass', sans-serif;
+   font-size: 15px;
+}
+.body{
+    min-height: 100vh;
+    line-height: 1.5px;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+}
+.box-container{
+    max-height: 65rem;
+    max-width: 25rem;
+    background-color:  hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+}
+.box-container .box-container-thank-you{
+    display: grid;
+}
+.box-container img{
+    background-color: hsl(215, 20%, 21%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.box-container  h2{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.box-container p{
+    color: whitesmoke;
+    font-size: 12px;
+}
+.rating-btn-continer{
+    color: white;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    background-color:hsl(216, 18%, 22%) ;
+}
+
+.rating-btn{
+    width: 2.5em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 0.3rem 0 0.3rem;
+    margin: 0.2px;
+    border: none;
+    border-radius: 50%;
+}
+.rating-btn:hover{
+    background-color: orange;
+    font-weight: 700;
+    color: hsl(216, 12%, 54%);
+}
+
+.submit-btn{
+    margin:0.5rem 0 0.5rem;
+    width:100%;
+    border-radius: 1.5rem;
+    background-color: orange;
+    padding-block: 0.35rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: orange;
+    font-weight: 700;
+}
+
+.box-container-thank-you {
+    max-height: 65rem;
+    max-width: 25rem;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color:  hsl(213, 19%, 18%);
+    font-family: inherit;
+}
+.box-container-thank-you  img {
+    margin-inline: auto;
+    max-width: 50%;
+    margin: 25px;
+
+}
+.Rating-result {
+    background-color: hsl(213, 14%, 16%);
+    color: orange;
+    max-width: 50%;
+    padding-block: 0.2rem;
+    margin-inline: auto;
+    border-radius: 1rem;
+}
+.box-container-thank-you h2 {
+    font-size: 18px;
+    color: white;
+}    
+
+.box-container-thank-you p {
+    font-size: 13px;
+    color: whitesmoke;  
+
+}
